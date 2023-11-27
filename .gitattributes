@@ -1,0 +1,2 @@
+*.db filter=lfs diff=lfs merge=lfs -text
+hadith_bn_test.db filter=lfs diff=lfs merge=lfs -text
