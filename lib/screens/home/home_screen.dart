@@ -5,6 +5,17 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return SafeArea(
+        child: Scaffold(
+      appBar: AppBar(
+        title: const Text("আল-হাদিস"),
+        centerTitle: true,
+        backgroundColor: Colors.green,
+        actions: [
+          IconButton(onPressed: () {}, icon: const Icon(Icons.search_outlined))
+        ],
+      ),
+      drawer: const Drawer(),
+    ));
   }
 }
